@@ -8,8 +8,11 @@ private int heureEntree;
 private int heureSortie;
 private int nbreHeuresParJour;
 private List<Presence> presences;
+public Heures() {
+	
+}
 public Heures(int id, int heureEntree, int heureSortie, int nbreHeuresParJour) {
-	super();
+	
 	this.id = id;
 	this.heureEntree = heureEntree;
 	this.heureSortie = heureSortie;

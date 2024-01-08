@@ -9,7 +9,7 @@ private Date date;
 private Heures heure;
 private Employe employe;
 public Presence(int id, Date date, Heures heure, Employe employe) {
-	super();
+	//super();
 	this.id = id;
 	this.date = date;
 	this.heure = heure;

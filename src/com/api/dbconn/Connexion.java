@@ -58,5 +58,18 @@ public class Connexion {
 		}
     
     
+    public int executerAction(String s) {
+		int nbre=0;
+		try {
+			nbre= stm.executeUpdate(s);
+			
+		}catch(SQLException e) {
+			System.out.println("Problème requete action");
+		}
+		return nbre;
+		
+	}
+    
+    
 }
 
